@@ -1,6 +1,0 @@
- 
-b explode_bomb
-b phase_4
-set disassemble-next-line on
-run psol.txt
-
