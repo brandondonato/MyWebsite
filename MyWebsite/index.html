@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--The tab name -->
+	<title>Brandon's Website</title>
+	<!--main.css import here-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JQuery and script.js import here-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+	<script type="text/javascript" src="script.js"> </script>
+
+	<!--Bootstrap imports-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--Font Imports-->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela">
+</head>
+<body id="myPage" >
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="Navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#myPage">About Me</a>
+			</div>
+			<div class="collapse navbar-collapse" id="collapsing navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myPage">About Me</a></li>
+					<li><a href="interests.html">Interests</a></li>
+					
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Contact
+							<b class="caret"></b>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#bottom">Contact Info</a></li>
+							<li><a href="#links">Important Links</a></li>
+							<li class="divider"></li>
+							<li><a href="#resume">My Resume</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+	<!--Top Part of the page -->
+	<div id="About Me" class="container-fluid bg-1 text-center">
+		<h3>I am Brandon Donato</h3>
+		<p>
+			This is where I like to display my stories 
+		</p>
+		<img src="myface.jpg" class="img-circle" alt="MyFace">
+		<h3>And it should have parallax scrolling</h3>
+	</div>
+
+	<!--Links to other sites here -->
+	<div id="Links" class="container-fluid bg-2 text-center">
+		<h3>These are where my drugs are located</h3>
+		<!--GitHub-->
+		<a href="https://www.github.com/brandondonato">
+			<img src="github.png" class="img-circle" alt="Github">
+		</a>
+		<!--LinkedIn-->
+		<a href="https://www.linkedin.com/in/brandon-donato-975803131/">
+			<img src="linkedin.png" class="img-circle" alt="LinkedIn">
+		</a>
+		<!--Resume Link-->
+		<!--Be sure to put the resume HERE instead of the pdf.png file-->
+		<a href="pdf.png" download="Brandon Donato's Resume">
+			<img src="pdf.png" class="img-square" alt="Resume pdf">
+		</a>
+		<p>This is where you can find me and all of my things<br>
+			Use the links above to find my github, linkedin, and resume!
+		</p>
+	</div>
+
+	<!--New Parts go here -->
+	<div id="bottom" class="container-fluid bg-3 text-center">
+		<h3>This is a new part of the website</h3>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	</div>
+
+	<div id = "next" class="container-fluid bg-4 text-center">
+		<h3> Next part my dude </h3>
+		<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	</div>
+
+</body>
+<footer class="container-fluid bottom-foot text-center">
+	<a href="#myPage" title="Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+	<p>Back to top</p>
+</footer>
+</html>
